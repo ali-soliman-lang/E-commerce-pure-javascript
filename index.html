@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce website || Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,200;1,700&family=M+PLUS+Rounded+1c:wght@100;300;400;500;900&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,200;1,700&family=M+PLUS+Rounded+1c:wght@100;300;400;500;900&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,600&family=The+Nautigal:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- start header section -->
+
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">toy store</a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="prodcuts.html">Prodcuts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="cart-icon">
+            <a href="cart.html">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="counter">0</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- end header section -->
+
+    <!-- start home section -->
+
+    <section class="home">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/Child.jpg" class="d-block w-100" alt="children" />
+            <div class="info">
+              <h4>New Arrivals</h4>
+              <h2>
+                Best Kids Store & <br />
+                Online Shop
+              </h2>
+              <a href="#">Discover Now</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/Mother-Children.jpg"
+              class="d-block w-100"
+              alt="children"
+            />
+            <div class="info">
+              <h4>Big fun for kid's!</h4>
+              <h2>
+                A World To <br />
+                Explore
+              </h2>
+              <a href="#">Discover Now</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/children-playing.jpg"
+              class="d-block w-100"
+              alt="children"
+            />
+            <div class="info">
+              <h4>Fuel the imagination!</h4>
+              <h2>Extraordinary Learning Toys</h2>
+              <a href="#">Discover Now</a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- end home section -->
+
+    <!-- start works section -->
+
+    <section class="works">
+      <div class="container">
+        <div class="heading">
+          <h2>Here's how it works</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="item">
+              <i class="fas fa-cogs"></i>
+              <h3>Inspires</h3>
+              <p>
+                Imperdiet massa tincidunt nunc pulvinar sapien et ligula
+                ullamcorper. Elementum sagittis.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="item">
+              <i class="fas fa-brain"></i>
+              <h3>Encouraging</h3>
+              <p>
+                Morbi tincidunt ornare massa eget. Ullamcorper a lacus
+                vestibulum sed arcu non odio.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="item">
+              <i class="fas fa-lightbulb"></i>
+              <h3>Creative</h3>
+              <p>
+                Cras semper auctor neque vitae tempus quam pellentesque. At
+                augue eget arcu dictum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end works section -->
+
+    <!-- start invest section -->
+
+    <section class="invest">
+      <div class="container">
+        <div class="heading">
+          <h2>
+            It's never been easier to <br />
+            invest in your kid's toys
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <div class="item-text">
+              <h2>
+                Toys are all your baby need <br />
+                better toys for better growth
+              </h2>
+              <p>
+                Facilisis mauris sit amet massa vitae tortor condimentum
+                lacinia. Faucibus interdum posuere lorem ipsum dolor. Eu
+                tincidunt tortor aliquam nulla facilisi cras. Venenatis lectus
+                magna.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="item-img">
+              <img src="img/img-four.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="row inverse">
+          <div class="col-lg-6 col-md-12">
+            <div class="item-img">
+              <img src="img/img-five.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="item-text">
+              <h2>Creative modern wooden toys for kids development</h2>
+              <p>
+                Ut faucibus pulvinar elementum integer enim neque volutpat.
+                Blandit volutpat maecenas volutpat blandit aliquam etiam erat.
+                Elit scelerisque mauris pellentesque pulvinar pellentesque
+                tristique.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <div class="item-text">
+              <h2>Wooden toys that will delight your little one a lot</h2>
+              <p>
+                Nisl vel pretium lectus quam id leo in vitae. Eros in cursus
+                turpis massa. Blandit massa enim nec dui nunc. Turpis in eu mi
+                bibendum neque egestas. Viverra nam libero justo laoreet sit
+                amet cursus sit.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="item-img">
+              <img src="img/img-six.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end invest section -->
+
+    <!-- start Popular Products section -->
+
+    <section class="popular-products some">
+      <div class="container">
+        <div class="heading">
+          <h2>Popular Products</h2>
+        </div>
+        <div class="row">
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- end Popular Products section -->
+
+    <!-- start testimonial section -->
+
+    <section class="testimonial">
+      <div class="container">
+        <div class="heading">
+          <h2>What our customers say</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-12">
+            <div class="test-box">
+              <img src="img/t1.jpg" alt="client" />
+              <h4>john</h4>
+              <p>
+                Quam pellentesque nec nam aliquam sem et tortor. Sed risus
+                ultricies tristique nulla aliquet enim tortor. Egestas congue
+                quisque egestas diam in arcu.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="test-box">
+              <img src="img/t3.jpg" alt="client" />
+              <h4>jack</h4>
+              <p>
+                Quam pellentesque nec nam aliquam sem et tortor. Sed risus
+                ultricies tristique nulla aliquet enim tortor. Egestas congue
+                quisque egestas diam in arcu.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="test-box">
+              <img src="img/t4.jpg" alt="client" />
+              <h4>Merlin Doli</h4>
+              <p>
+                Quam pellentesque nec nam aliquam sem et tortor. Sed risus
+                ultricies tristique nulla aliquet enim tortor. Egestas congue
+                quisque egestas diam in arcu.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end testimonial section -->
+
+    <!-- start footer section -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3">
+            <div class="box">
+              <a href="index.html" class="logo">toy store</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <div class="box">
+              <h3>Quick Links</h3>
+              <ul>
+                <li>
+                  <a href="index.html"
+                    ><i class="fas fa-angle-right"></i>Home</a
+                  >
+                </li>
+                <li>
+                  <a href="about-us.html"
+                    ><i class="fas fa-angle-right"></i>About Us</a
+                  >
+                </li>
+                <li>
+                  <a href="prodcuts.html"
+                    ><i class="fas fa-angle-right"></i>Prodcuts</a
+                  >
+                </li>
+                <li>
+                  <a href="contact-us.html"
+                    ><i class="fas fa-angle-right"></i>Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <div class="box">
+              <h3>Services</h3>
+              <ul>
+                <li>
+                  <a href="contact-us.html"
+                    ><i class="fas fa-angle-right"></i>delvery</a
+                  >
+                </li>
+                <li>
+                  <a href="contact-us.html"
+                    ><i class="fas fa-angle-right"></i>support</a
+                  >
+                </li>
+                <li>
+                  <a href="contact-us.html"
+                    ><i class="fas fa-angle-right"></i>help</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <div class="box">
+              <h3>social media</h3>
+              <ul class="social">
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- end footer section -->
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
